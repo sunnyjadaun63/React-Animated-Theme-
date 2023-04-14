@@ -1,0 +1,76 @@
+.swiper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    background: -o-linear-gradient(312.44deg, #FFFFFF 2.14%, rgba(245, 245, 245, 0) 102.34%),-o-linear-gradient(313.98deg, rgba(255, 55, 187, 0.1) 0%, rgba(116, 30, 255, 0.1) 91.62%),#f2f2f2;
+    background: linear-gradient(137.56deg, #FFFFFF 2.14%, rgba(245, 245, 245, 0) 102.34%),linear-gradient(136.02deg, rgba(255, 55, 187, 0.1) 0%, rgba(116, 30, 255, 0.1) 91.62%),#f2f2f2;
+    -webkit-box-shadow: inset 3px 2px 4px rgba(255,255,255,.7), inset -2px -2px 6px rgba(0,0,0,.06), inset -5px -6px 24px rgba(116,30,255,.11), inset 20px 21px 34px rgba(255,55,187,.2);
+    box-shadow: inset 3px 2px 4px rgba(255,255,255,.7), inset -2px -2px 6px rgba(0,0,0,.06), inset -5px -6px 24px rgba(116,30,255,.11), inset 20px 21px 34px rgba(255,55,187,.2);
+    border-radius: 24px;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+  
+  .swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+  
+  .swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+  
+  .swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+  
+  .swiper-slide:nth-child(10n) {
+    background-color: rgba(54, 94, 77, 0.389);
+  }
+  .swiper-cards .swiper-slide {
+    transform-origin: center bottom;
+    display: flex;
+    flex-direction: column;
+    backface-visibility: hidden;
+    overflow: hidden;
+  }
+  .swiper-slider-profile{
+    height: 100px;
+      border-radius: 50%;
+      width: 100px;
+      object-fit: cover;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+  }
